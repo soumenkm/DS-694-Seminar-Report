@@ -1,0 +1,18 @@
+\chapter{Conclusion and Future Directions}\label{chp: Conclusions}
+\section{Conclusions} 
+\begin{itemize}
+	\item This study highlights the significance of language model fine-tuning techniques such as adapter-based fine-tuning, generalizable fine-tuning, and composable sparse fine-tuning. These methods offer efficient ways to adapt pre-trained language models to specific tasks and domains, contributing to improved performance.
+	
+	\item Moreover, the analysis of fact representation in language models highlight on the importance of task-specific model editing, cross-lingual fact representation, and the underlying geometry of language model representation. These insights helps understanding of how language models encode and manipulate factual knowledge, facilitating more effective utilization in various natural language processing applications.
+	
+	\item Furthermore, the exploration of cross-lingual transfer mechanisms, particularly knowledge editing in large language models and cross-lingual entity alignment shows the usage of multilingual models to bridge language barriers and facilitate knowledge transfer across different linguistic contexts.
+\end{itemize}
+
+\section{Future Directions} 
+\begin{itemize}
+	\item We can explore different versions of the Lottery Ticket algorithm to improve efficiency. Additionally, experimenting with other pruning methods like DiffPruning by \citet{guo2021parameterefficient} and ChildTuning by \citet{xu2021raise} could help refine our approach. Finally, we could adapt our method for tasks beyond cross-lingual transfer, such as multimodal learning and domain adaptation, to broaden its applicability.
+	
+	\item We can plan to improve how multilingual language models represent factual knowledge across languages. This includes developing better methods for cross-lingual fact representation learning and creating more accurate datasets for probing factual knowledge. 
+	
+	\item We can aim to address the challenges highlighted in the study regarding the cross-lingual effect of knowledge editing. We can plan to investigate how the locality of language models in one language may impact editing outcomes in other languages, to enhance our understanding and improve cross-lingual knowledge editing techniques.
+\end{itemize}
